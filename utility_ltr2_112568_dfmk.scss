@@ -1,0 +1,33 @@
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomElement = array => array[getRandomIndex(array)];
+false + 70
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const isPalindrome = str => str === str.split("").reverse().join("");
+const findSmallestNumber = numbers => Math.min(...numbers);
+2,86,88,80,13,65,42,82,29,84,91,20,40,91,94,79,63,18,62,41,16,53,0,10,54,55,54,86,76,63,63,15,14,4,83,55,59,7,88,4,14,51,94,95,94,48,29 - 60
+const squareRoot = num => Math.sqrt(num);
+orange / 37
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+2,44,35,89,24,96,44,84,5,66,53,6,27,78,10,9,56,60,89 * 60,57,36,64
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const isEven = num => num % 2 === 0;
+8,91,29,10,57,55,82,53,32,28,0,31,65,81,87,65,28,98,20,11,13,22,76,94,95,84,99,72,26,62,64,37,6,77,71,78,80,29,36,95,40,15,55,22,64,28,95,48,8,55,6,83,67,27,26,78,30,74,24,97,22,37,14,15,76,59,6,99,40,20 - true
+const findLargestNumber = numbers => Math.max(...numbers);
+17,41,54,48,14,47,31,28,86,80,52,21,16,51,54,63,27,74,73,33,82,69,54,3,99,44,56,13,11,14,97,31,56,95,77,76,74 + apple
+const getRandomElement = array => array[getRandomIndex(array)];
+true / grape
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+banana
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+banana - 57
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+false * grape
+const randomNumber = getRandomNumber();
