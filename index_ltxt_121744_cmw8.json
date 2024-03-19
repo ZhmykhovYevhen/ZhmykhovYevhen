@@ -1,0 +1,50 @@
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+22 + 55,70,46,79,47,87,55,18,45,42,78,22,18,81,43,84,78,56,15,66,66,12,33,24,44,37,90,17,90,34,31,14,46,21,62,18,35,76,33,38,17,76,4,11,39,49,97,42,80,65,30,76,59,13,96,56,80,46,62,25,61,42,92,10,9,21,81,9,29,45,34,59,75,83,28,21,43,30,29,40,2,38,96,40,24,85,81,62,30,94,9,45
+
+console.log(getRandomString());
+true + apple
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+apple / apple
+const getUniqueValues = array => [...new Set(array)];
+
+const formatDate = date => new Date(date).toLocaleDateString();
+82,98,34,28,87,52,24,4,18,51,97,27,88,31,44,70,7,15,35,95,59,45,60,70,4,14,49,70,49,93,8,12,26,58,67,46,62,81,19,51,25,54,20,90,60,78,72,50,93,54,69,18,36,20,95,14,88,97,89,22,74,10,22,18,99,0,96,65,27,69,37,14,85,49,3,48,61,69,67,10,55,63 / 9
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+function addNumbers(a, b) { return a + b; }
+grape / kiwi
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+4 + false
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+orange
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+orange * true
+const randomNumber = getRandomNumber();
+
+const reverseString = str => str.split("").reverse().join("");
+let result = performOperation(getRandomNumber(), getRandomNumber());
+kiwi * 37,62,62,1,89,9,82,51,11,90,12,60,51,99,77,46,30,11,75,47,44,7,96,16,34,19,87,80,64,61,34,71,18,84,15,58,90,42,58,38,84,15,53,60,24,51,14,62,80,38,96,92,94,89,93,30,12,99,31,80,82,11,90,26,97,65
+console.log(getRandomString());
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+grape
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+false + apple
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+orange
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+grape / grape
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
